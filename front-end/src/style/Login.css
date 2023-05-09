@@ -1,0 +1,70 @@
+.wrapper {
+  display: flex;
+  height: 100vh;
+}
+
+.user-login-area {
+  background-color: #ebf1ef;
+  border: 2px solid rgb(216, 211, 211);
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+  margin: auto;
+  min-width: fit-content;
+  padding: 10px 30px;
+  text-align: center;
+  vertical-align: middle;
+  width: 20%;
+}
+
+.form {
+  color: #277660;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.password, .email {
+  height: 35px;
+  margin-bottom: 10px;
+  width: 97%;
+}
+
+label {
+  text-align: left;
+}
+
+.register-btn, .submit-btn {
+  border-radius: 6px;
+  font-size: 20px;
+  font-weight: 800;
+  height: 45px;
+  margin-bottom: 10px;
+  min-width: fit-content;
+  width: 100%;
+}
+
+.error-msg {
+  color: #626262;
+  display: block;
+  font-size: 12px;
+  max-width: fit-content;
+}
+
+.register-btn {
+  background-color: #ebf1ef;
+  border: 2px solid #277660;
+  color: #277660;
+}
+
+.submit-btn {
+  background-color: #277660;
+  border: 2px solid #277660;
+  color: #ebf1ef;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
