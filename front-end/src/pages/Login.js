@@ -52,7 +52,7 @@ function Login() {
   return (
     <section className="wrapper">
       <section className="user-login-area">
-        <img alt="Trybe Delivery App" />
+        <img alt="Delivery App" />
         <form className="form">
           <h1>App Delivery</h1>
           <GenericInput

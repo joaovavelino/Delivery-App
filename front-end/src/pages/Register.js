@@ -36,7 +36,7 @@ function Register() {
   return (
     <section className="wrapper">
       <section className="user-login-area">
-        <img alt="Trybe Delivery App" />
+        <img alt="Delivery App" />
         <form className="form">
           <h1>Cadastro</h1>
           <GenericInput

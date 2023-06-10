@@ -28,7 +28,7 @@ function Manage() {
     <section className="wrapper">
       <AdmNavbar user={ JSON.parse(localStorage.getItem('user')).name } />
       <section className="user-login-area">
-        <img alt="Trybe Delivery App" />
+        <img alt="Delivery App" />
         <form className="form">
           <h1>Cadastrar novo usuário</h1>
           <GenericInput
